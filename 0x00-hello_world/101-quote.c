@@ -4,7 +4,7 @@
 /**
  * main - Prints quote to the standard error
  *
- * Return: zero on success
+ * Return: Always 0 (success)
  *
  */
 int main(void)
