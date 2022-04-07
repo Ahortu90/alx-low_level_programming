@@ -1,9 +1,10 @@
 #include <unistd.h>
+#include <stdio.h>
 
 /**
- * main - Prints qoute to the standard error
+ * main - Prints quote to the standard error
  *
- * Retrun: zero on success
+ * Return: zero on success
  *
  */
 int main(void)
