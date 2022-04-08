@@ -15,4 +15,5 @@ int main(void)
 		putchar(ch);
 	putchar('\n');
 	return (0);
-} 
+}
+© 2022 GitHub,
