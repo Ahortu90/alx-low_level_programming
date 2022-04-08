@@ -1,24 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
- * main - Prints base 10 numbers
- * @void: Empty parameter list for main.
- *
- * Description: Prints numbers 0-9
- *
- * Return: 0 for success
-*/
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-        char num = '0';
+	int n;
 
-        while (num <= '9')
-        {
-                putchar(num);
-                num++;
-        }
-        putchar('\n');
-        return (0);
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
+	return (0);
 }
