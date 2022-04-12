@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "derrick.h"
+#include "main.h"
 /**
  * main - Check description
  * Description: It prnts the word _putchar, followed by a new line.

@@ -1,5 +1,5 @@
 #include "2-print_alphabet_x10.h"
-#include "derrick.h"
+#include "main.h"
 
 /**
  * print_alphabet_x10 - Check 2-print_alphabet_x10
