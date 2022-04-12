@@ -1,27 +1,27 @@
 #include <stdio.h>
+#include <102-fibonacci.h>
 
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 
-int main(void)
+int mai(void)
 {
-	int i;
-	long int fibonacci[50];
+	int count;
+	usigned long x, y, z;
 
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
+	x = 0;
+	y = 1;
 
-	for (i = 2; i < 50; i++)
+	for (count =1; count <= 49; count++)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if (i == 49)
-			printf("%ld\n", fibonacci[i]);
-		else
-			printf("%ld, ", fibonacci[i]);
+		z = x + y;
+		x = y;
+		y = z;
+		printf("%lu, ", z);
 	}
-
+	
+	printf("%lu\n", z + x);
 	return (0);
 }

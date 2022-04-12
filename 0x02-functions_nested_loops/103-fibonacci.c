@@ -1,26 +1,31 @@
 #include <stdio.h>
+#include "103-fibonacci.h"
 
 /**
- * main -Entry point
+ * main -print sum of all even fibonacci numbers under 4x10^6
  *
- * Return: Always 0 (Success)
+ * Return: Nothing.
  */
 
 int main(void)
 {
-	int i;
-	long int fibonacci[50], sum = 2;
+	unsigned long x, y, z, sum;
 
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
+	z = 0;
+	x = 0;
+	y = 1;
+	sum = 0;
 
-	for (i = 2; i < 50; i++)
+	while (z < 4000000)
 	{
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-		if ((fibonacci[i] % 2) == 0 && fibonacci[i] < 4000000)
-			sum += fibonacci[i];
-	}
-	printf("%ld\n", sum);
+		z = x + y;
+		x = y;
+		y = z;
 
+		if (z % 2 == 0)
+			sum += z;
+	}
+
+	printf("lu\n", sum);
 	return (0);
 }

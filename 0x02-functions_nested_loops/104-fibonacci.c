@@ -41,11 +41,11 @@ int main(void)
 		if (c >= 100)
 			printf("%lu%lu", z, c);
 		else
-			printf("%lu0%lu", z, c);
+			printf("%lu0lu", z, c);
 		if (count < 98)
 			printf(", ");
 		count++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
