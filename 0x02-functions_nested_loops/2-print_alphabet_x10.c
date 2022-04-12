@@ -4,7 +4,7 @@
 /**
  * print_alphabet_x10 - Check 2-print_alphabet_x10
  * Description: function uses _putchar function to print
- alphabet in lowercases 10 time
+ * alphabet in lowercases 10 time
  * Return: Nothing.
  */
 
