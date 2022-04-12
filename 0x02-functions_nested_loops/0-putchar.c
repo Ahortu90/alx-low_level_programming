@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "0-putchar.h"
+#include "derrick.h"
 
 /**
  * main - Check description
