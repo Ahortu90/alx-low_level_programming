@@ -2,7 +2,7 @@
 #include "103-fibonacci.h"
 
 /**
- * main -print sum of all even fibonacci numbers under 4x10^6
+ * main - Entry point
  *
  * Return: Nothing.
  */
