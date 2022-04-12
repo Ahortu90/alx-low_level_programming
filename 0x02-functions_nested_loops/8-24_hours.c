@@ -1,4 +1,5 @@
-#include "8-24_hours.h"
+#include "stdio.h"
+#include "main.h"
 
 /**
  * jack_bauer - Check 8-24_hours

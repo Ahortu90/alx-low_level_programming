@@ -1,4 +1,5 @@
-#include "9-times_table.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * times_table - Check description

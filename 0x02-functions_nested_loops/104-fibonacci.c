@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "104-fibonacci.h"
+#include "main.h"
 
 /**
  * main - print the frist 98 fibonacci numbers.

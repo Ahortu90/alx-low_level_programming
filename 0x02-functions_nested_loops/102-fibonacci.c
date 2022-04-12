@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <102-fibonacci.h>
+#include "main.h"
 
 /**
  * main - Entry point

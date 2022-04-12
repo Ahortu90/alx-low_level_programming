@@ -1,4 +1,5 @@
-#include "6-abs.h"
+#include "stdio.h"
+#include "main.h"
 
 /**
  * _abs - Check 6-abs

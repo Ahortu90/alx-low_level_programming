@@ -1,4 +1,5 @@
-#include "5-sign.h"
+#include "stdio.h"
+#include "main.h"
 
 /**
  * print_sign - Check 5-sign

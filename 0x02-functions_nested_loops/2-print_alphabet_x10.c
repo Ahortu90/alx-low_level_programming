@@ -1,4 +1,4 @@
-#include "2-print_alphabet_x10.h"
+#include "stdio.h"
 #include "main.h"
 
 /**

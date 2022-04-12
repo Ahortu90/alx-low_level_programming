@@ -1,4 +1,5 @@
-#include "7-print_last_digit.h"
+#include "stdio.h"
+#include "main.h"
 
 /**
  * print_last_digit - Check 7-print_last_digit

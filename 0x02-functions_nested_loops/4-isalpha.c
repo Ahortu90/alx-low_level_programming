@@ -1,4 +1,5 @@
-#include "4-isalpha.h"
+#include "stdio.h"
+#include "main.h"
 
 /**
  * _isalpha - Check 4-isalpha

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "11-print_to_98.h"
+#include "main.h"
 
 /**
  * print_to_98 - Check 11-print_to_98
