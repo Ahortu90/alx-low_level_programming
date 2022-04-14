@@ -1,8 +1,8 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * print_most_numbers - function that prints the numbers, from 0 to 9.
- * Don not print 2 and 4
+ * Do not print 2 and 4
  *
  * Return: Always 0 (Success).
  */
