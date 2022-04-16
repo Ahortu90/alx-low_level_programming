@@ -10,18 +10,20 @@
 
 void print_square(int size)
 {
-	int filas;
-	int columnas;
+	int row;
+	int column;
 
 	if (size > 0)
-		for (filas = 0; filas < size; filas++)
+	{
+		for (row = 0; row < size; row++)
 		{
-			for (columnas = 0; columnas < size; columnas++)
+			for (column = 0; column < size; column++)
 			{
 				_putchar('#');
 			}
 			_putchar('\n');
 		}
+	}
 	else
 	{
 		_putchar('\n');
