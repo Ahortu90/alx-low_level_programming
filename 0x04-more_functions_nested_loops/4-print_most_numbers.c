@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_most_numbers - function that prints the numbers, from 0 to 9.
