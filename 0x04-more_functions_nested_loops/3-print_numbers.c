@@ -16,4 +16,6 @@ void print_number(void);
 		_putchar('0' + i);
 	}
 	_putchar('\n');
+
+	return (0);
 }
