@@ -25,4 +25,4 @@ void rev_string(char *s)
 		s[l] = c;
 		l--;
 	}
-}		
+}
