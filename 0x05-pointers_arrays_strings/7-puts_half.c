@@ -35,4 +35,3 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
-"7-puts_half.c" 38L, 452C
