@@ -1,21 +1,26 @@
+/*
+ * File: 1-list_len.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "lists.h"
+
 /**
- * list_len - the function that return the number of elements
- * in a linked list.
- * @h: the pointer that points to the struct.
+ * list_len - Finds the number of elements in
+ *            a linked list_t list.
+ * @h: The linked list_t list.
  *
- * Return: number of elements
+ * Return: The number of elements in h.
  */
 size_t list_len(const list_t *h)
 {
-	int elem;
+	size_t elements = 0;
 
-	elem = 0;
-
-	while (h != '\0')
+	while (h)
 	{
+		elements++;
 		h = h->next;
-		elem++;
 	}
-	return (elem);
+
+	return (elements);
 }

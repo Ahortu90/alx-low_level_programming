@@ -1,15 +1,18 @@
-#include <stdio.h>
-/**
- * firstfunc - prints before the main function is executed.
- *
- * Return: Always 0.
+/*
+ * File: 100-first.c
+ * Auth: Brennan D Baraban
  */
-void firstfunc(void) __attribute__ ((constructor));
 
-void firstfunc(void)
+#include <stdio.h>
+
+void __attribute__((constructor)) hare(void);
+
+/**
+ * hare - Prints a string before the
+ *        main function is executed.
+ */
+void hare(void)
 {
-	char *m;
-
-	m = "You're beat! and yet, you must allow,\nI bore my house upon my back!\n";
-	printf("%s", m);
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
