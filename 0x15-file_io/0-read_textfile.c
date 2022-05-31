@@ -1,6 +1,6 @@
 /*
  * File: 0-read_textfile.c
- * Auth: Brennan D Baraban
+ * Auth: Ahortu Derrick
  */
 
 #include "main.h"
