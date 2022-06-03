@@ -8,7 +8,7 @@ read, write, set permissions of files in C.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+* [tests](./tests): Folder of test files. Provided by Alx Africa Software Engineering School.
 
 ## Header File :file_folder:
 

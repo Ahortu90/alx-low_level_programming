@@ -1,6 +1,6 @@
 /*
  * File: 2-append_text_to_file.c
- * Auth: Brennan D Baraban
+ * Auth: Ahortu Derrick
  */
 
 #include "main.h"
